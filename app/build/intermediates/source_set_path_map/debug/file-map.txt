@@ -1,0 +1,60 @@
+com.kalavidarabalaga.app-constraintlayout-2.1.4-0 C:\Users\sumanth s\.gradle\caches\transforms-4\00ea17688fb2d26c6f9dd6004194aea1\transformed\constraintlayout-2.1.4\res
+com.kalavidarabalaga.app-jetified-appcompat-resources-1.6.1-1 C:\Users\sumanth s\.gradle\caches\transforms-4\05da1397f1b20d0a2aa50313a19a3872\transformed\jetified-appcompat-resources-1.6.1\res
+com.kalavidarabalaga.app-jetified-lifecycle-runtime-ktx-2.7.0-2 C:\Users\sumanth s\.gradle\caches\transforms-4\0964cbc29d9665694c02b1105d696425\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.kalavidarabalaga.app-jetified-activity-ktx-1.8.0-3 C:\Users\sumanth s\.gradle\caches\transforms-4\0d476b7c65478b60e74c689a58bbb7d2\transformed\jetified-activity-ktx-1.8.0\res
+com.kalavidarabalaga.app-jetified-lifecycle-livedata-core-ktx-2.7.0-4 C:\Users\sumanth s\.gradle\caches\transforms-4\134c88393f0c0560d4684a7ceae86d4c\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.kalavidarabalaga.app-navigation-ui-ktx-2.7.6-5 C:\Users\sumanth s\.gradle\caches\transforms-4\13cd2cca424472cb4259de2b996653ae\transformed\navigation-ui-ktx-2.7.6\res
+com.kalavidarabalaga.app-jetified-customview-poolingcontainer-1.0.0-6 C:\Users\sumanth s\.gradle\caches\transforms-4\14bb3a443a430726a7bd7a3a30d0ed21\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.kalavidarabalaga.app-jetified-savedstate-1.2.1-7 C:\Users\sumanth s\.gradle\caches\transforms-4\1655bb42b91dea6f8ac71f336cbc5e7a\transformed\jetified-savedstate-1.2.1\res
+com.kalavidarabalaga.app-navigation-fragment-2.7.6-8 C:\Users\sumanth s\.gradle\caches\transforms-4\25c7919a5a812e464bda75f639a34a72\transformed\navigation-fragment-2.7.6\res
+com.kalavidarabalaga.app-jetified-startup-runtime-1.1.1-9 C:\Users\sumanth s\.gradle\caches\transforms-4\29f89987fb9ec050cf485400cd2fc38f\transformed\jetified-startup-runtime-1.1.1\res
+com.kalavidarabalaga.app-jetified-viewpager2-1.1.0-beta02-10 C:\Users\sumanth s\.gradle\caches\transforms-4\2ad7029e0c5cb2507e2958b7600ee101\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.kalavidarabalaga.app-recyclerview-1.3.2-11 C:\Users\sumanth s\.gradle\caches\transforms-4\2d9b68fa36a113d63fcae40d883c5e83\transformed\recyclerview-1.3.2\res
+com.kalavidarabalaga.app-lifecycle-runtime-2.7.0-12 C:\Users\sumanth s\.gradle\caches\transforms-4\2ee84316dbeb3aaf2f882a2b687f7847\transformed\lifecycle-runtime-2.7.0\res
+com.kalavidarabalaga.app-navigation-runtime-ktx-2.7.6-13 C:\Users\sumanth s\.gradle\caches\transforms-4\3217c0477f8a63e7822111cb2e85437d\transformed\navigation-runtime-ktx-2.7.6\res
+com.kalavidarabalaga.app-swiperefreshlayout-1.1.0-14 C:\Users\sumanth s\.gradle\caches\transforms-4\32df840969c8721798d469a96601bf96\transformed\swiperefreshlayout-1.1.0\res
+com.kalavidarabalaga.app-cardview-1.0.0-15 C:\Users\sumanth s\.gradle\caches\transforms-4\334ef429e0944c0b3c4e7c8bb576ca0d\transformed\cardview-1.0.0\res
+com.kalavidarabalaga.app-core-1.12.0-16 C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\res
+com.kalavidarabalaga.app-transition-1.4.1-17 C:\Users\sumanth s\.gradle\caches\transforms-4\4358d37107c1c5cc6e784b585e0d9663\transformed\transition-1.4.1\res
+com.kalavidarabalaga.app-jetified-lifecycle-process-2.7.0-18 C:\Users\sumanth s\.gradle\caches\transforms-4\4d59a3d9fd0e641e1447581d583aac1b\transformed\jetified-lifecycle-process-2.7.0\res
+com.kalavidarabalaga.app-material-1.11.0-19 C:\Users\sumanth s\.gradle\caches\transforms-4\59889741377237607850ee146fbcf10a\transformed\material-1.11.0\res
+com.kalavidarabalaga.app-fragment-1.6.2-20 C:\Users\sumanth s\.gradle\caches\transforms-4\5cdbffd1caeebc9e39866080826b6ab1\transformed\fragment-1.6.2\res
+com.kalavidarabalaga.app-jetified-firebase-common-20.4.2-21 C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\res
+com.kalavidarabalaga.app-jetified-lifecycle-livedata-ktx-2.7.0-22 C:\Users\sumanth s\.gradle\caches\transforms-4\613281b0423ca36da69c3ca77dce2fc1\transformed\jetified-lifecycle-livedata-ktx-2.7.0\res
+com.kalavidarabalaga.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-23 C:\Users\sumanth s\.gradle\caches\transforms-4\65dbc844b50081dbcfa5c3d9eff80f63\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.kalavidarabalaga.app-jetified-annotation-experimental-1.3.0-24 C:\Users\sumanth s\.gradle\caches\transforms-4\75f0d9154dc36fa8b529b3246d0b9164\transformed\jetified-annotation-experimental-1.3.0\res
+com.kalavidarabalaga.app-navigation-common-2.7.6-25 C:\Users\sumanth s\.gradle\caches\transforms-4\78c100656d77c6fa1e5ea33730548da6\transformed\navigation-common-2.7.6\res
+com.kalavidarabalaga.app-appcompat-1.6.1-26 C:\Users\sumanth s\.gradle\caches\transforms-4\7fd5786962e7a071f01a73e32df7c310\transformed\appcompat-1.6.1\res
+com.kalavidarabalaga.app-browser-1.4.0-27 C:\Users\sumanth s\.gradle\caches\transforms-4\833dd9afaaddf898798be43937f8aa8d\transformed\browser-1.4.0\res
+com.kalavidarabalaga.app-jetified-savedstate-ktx-1.2.1-28 C:\Users\sumanth s\.gradle\caches\transforms-4\899ffff5f15f5b713f32107d931fcf9d\transformed\jetified-savedstate-ktx-1.2.1\res
+com.kalavidarabalaga.app-jetified-lifecycle-viewmodel-ktx-2.7.0-29 C:\Users\sumanth s\.gradle\caches\transforms-4\89a07a121aa03e7fc055a4f87013681f\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.kalavidarabalaga.app-drawerlayout-1.1.1-30 C:\Users\sumanth s\.gradle\caches\transforms-4\918c481ad9384e8527c5223966237d8d\transformed\drawerlayout-1.1.1\res
+com.kalavidarabalaga.app-jetified-emoji2-views-helper-1.2.0-31 C:\Users\sumanth s\.gradle\caches\transforms-4\966c9e19f8cf5253a84571aa2b3af90f\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.kalavidarabalaga.app-jetified-profileinstaller-1.3.0-32 C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\res
+com.kalavidarabalaga.app-navigation-ui-2.7.6-33 C:\Users\sumanth s\.gradle\caches\transforms-4\abd92a86623469ca5a3c3071dd070527\transformed\navigation-ui-2.7.6\res
+com.kalavidarabalaga.app-navigation-common-ktx-2.7.6-34 C:\Users\sumanth s\.gradle\caches\transforms-4\b3fa86c246375b205490f829650c083f\transformed\navigation-common-ktx-2.7.6\res
+com.kalavidarabalaga.app-jetified-play-services-base-18.0.1-35 C:\Users\sumanth s\.gradle\caches\transforms-4\b73c6b49f30014fe1c2ac1a023dd6d13\transformed\jetified-play-services-base-18.0.1\res
+com.kalavidarabalaga.app-jetified-window-1.0.0-36 C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\res
+com.kalavidarabalaga.app-jetified-glide-4.16.0-37 C:\Users\sumanth s\.gradle\caches\transforms-4\bb394226d1f2febf8cf6e693861ac0c4\transformed\jetified-glide-4.16.0\res
+com.kalavidarabalaga.app-jetified-circleimageview-3.1.0-38 C:\Users\sumanth s\.gradle\caches\transforms-4\bdcaab8e9c83be0faadec49f23033c1c\transformed\jetified-circleimageview-3.1.0\res
+com.kalavidarabalaga.app-jetified-fragment-ktx-1.6.2-39 C:\Users\sumanth s\.gradle\caches\transforms-4\c4a77c8ac5e4bc0ab3e583d0bb1d75c4\transformed\jetified-fragment-ktx-1.6.2\res
+com.kalavidarabalaga.app-jetified-play-services-basement-18.1.0-40 C:\Users\sumanth s\.gradle\caches\transforms-4\c80bd0ff631e3fe34e5eaca37a667994\transformed\jetified-play-services-basement-18.1.0\res
+com.kalavidarabalaga.app-slidingpanelayout-1.2.0-41 C:\Users\sumanth s\.gradle\caches\transforms-4\cc46089f981b3086fbe6383c4985713a\transformed\slidingpanelayout-1.2.0\res
+com.kalavidarabalaga.app-jetified-activity-1.8.0-42 C:\Users\sumanth s\.gradle\caches\transforms-4\ce52a8d3da988872685a2f8032411e9f\transformed\jetified-activity-1.8.0\res
+com.kalavidarabalaga.app-navigation-runtime-2.7.6-43 C:\Users\sumanth s\.gradle\caches\transforms-4\d0ac230673e1fab8d093e6496c32751e\transformed\navigation-runtime-2.7.6\res
+com.kalavidarabalaga.app-lifecycle-livedata-2.7.0-44 C:\Users\sumanth s\.gradle\caches\transforms-4\d1a92256d2412be37e12c0d5761e0ad3\transformed\lifecycle-livedata-2.7.0\res
+com.kalavidarabalaga.app-jetified-emoji2-1.2.0-45 C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\res
+com.kalavidarabalaga.app-lifecycle-viewmodel-2.7.0-46 C:\Users\sumanth s\.gradle\caches\transforms-4\d8d1229fbb06ba3c4e8f84e7dd6da374\transformed\lifecycle-viewmodel-2.7.0\res
+com.kalavidarabalaga.app-navigation-fragment-ktx-2.7.6-47 C:\Users\sumanth s\.gradle\caches\transforms-4\e24539da0c42f12532979afe7e3b5dab\transformed\navigation-fragment-ktx-2.7.6\res
+com.kalavidarabalaga.app-coordinatorlayout-1.1.0-48 C:\Users\sumanth s\.gradle\caches\transforms-4\e3d1b115f85415afa523b33995d2f6e0\transformed\coordinatorlayout-1.1.0\res
+com.kalavidarabalaga.app-core-runtime-2.2.0-49 C:\Users\sumanth s\.gradle\caches\transforms-4\e52e13af0f0c0fe08ef55802dab9611e\transformed\core-runtime-2.2.0\res
+com.kalavidarabalaga.app-lifecycle-livedata-core-2.7.0-50 C:\Users\sumanth s\.gradle\caches\transforms-4\ea89b9f11113a294d3526d0d2053c222\transformed\lifecycle-livedata-core-2.7.0\res
+com.kalavidarabalaga.app-jetified-core-ktx-1.12.0-51 C:\Users\sumanth s\.gradle\caches\transforms-4\ec2de9ee8c53fcf485c071326c65956d\transformed\jetified-core-ktx-1.12.0\res
+com.kalavidarabalaga.app-pngs-52 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\generated\res\pngs\debug
+com.kalavidarabalaga.app-res-53 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\generated\res\processDebugGoogleServices
+com.kalavidarabalaga.app-resValues-54 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\generated\res\resValues\debug
+com.kalavidarabalaga.app-packageDebugResources-55 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.kalavidarabalaga.app-packageDebugResources-56 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.kalavidarabalaga.app-merged_res-57 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\build\intermediates\merged_res\debug
+com.kalavidarabalaga.app-debug-58 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\debug\res
+com.kalavidarabalaga.app-main-59 C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\res

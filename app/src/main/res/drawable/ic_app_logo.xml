@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App logo: Traditional Drum (Dollu) - Karnataka folk art inspired -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle (dark maroon) -->
+    <path
+        android:fillColor="#8B1A1A"
+        android:pathData="M54,4 C26.4,4 4,26.4 4,54 C4,81.6 26.4,104 54,104 C81.6,104 104,81.6 104,54 C104,26.4 81.6,4 54,4 Z" />
+
+    <!-- Drum body (gold trapezoid) -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M28,46 Q54,36 80,46 L80,64 Q54,74 28,64 Z" />
+
+    <!-- Drum top face (brighter gold ellipse approximated as path) -->
+    <path
+        android:fillColor="#F1C40F"
+        android:pathData="M28,46 Q54,38 80,46 Q54,54 28,46 Z" />
+
+    <!-- Drum bottom shadow ellipse -->
+    <path
+        android:fillColor="#B8860B"
+        android:pathData="M28,64 Q54,72 80,64 Q54,56 28,64 Z" />
+
+    <!-- Drum rope stripes (vertical white lines) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M36,46 L36,64" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M44,41 L44,69" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,38 L54,72" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M64,41 L64,69" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M72,46 L72,64" />
+
+    <!-- Music note left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,32 L20,32 L20,40 C18,41 16,40 17,38 C17,36 19,36 20,38 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,32 L25,30 L25,33 L20,35 Z" />
+
+    <!-- Music note right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,30 L87,30 L87,38 C85,39 83,38 84,36 C84,34 86,34 87,36 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M87,30 L92,28 L92,31 L87,33 Z" />
+
+</vector>

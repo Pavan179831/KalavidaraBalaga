@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Brand Palette ── -->
+    <color name="primary">#8B1A1A</color>
+    <color name="primary_dark">#5C1010</color>
+    <color name="primary_light">#AE2D2D</color>
+    <color name="accent">#D4A017</color>
+    <color name="accent_dark">#B8860B</color>
+
+    <!-- ── Backgrounds ── -->
+    <color name="background_dark">#0F0A0A</color>
+    <color name="background_card">#1E1210</color>
+    <color name="background_surface">#271614</color>
+
+    <!-- ── Text ── -->
+    <color name="text_primary">#F0EAE0</color>
+    <color name="text_secondary">#A89880</color>
+    <color name="text_hint">#6B5A4E</color>
+
+    <!-- ── UI Elements ── -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#2E1E18</color>
+    <color name="status_bar">#3D0D0D</color>
+    <color name="nav_bar">#0F0A0A</color>
+
+    <!-- ── Badges ── -->
+    <color name="badge_green">#27AE60</color>
+    <color name="badge_red">#E74C3C</color>
+    <color name="badge_gold">#D4A017</color>
+</resources>

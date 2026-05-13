@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಕಲಾವಿದರ ಬಳಗ</string>
+    <string name="app_name_english">Kalavidara Balaga</string>
+    <string name="tagline">Karnataka\'s Folk Artist Hub</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="featured_troupes">Featured Troupes</string>
+    <string name="popular_art_forms">Popular Art Forms</string>
+    <string name="browse_all">Browse All</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search by troupe name, art form…</string>
+    <string name="filter_by_district">Filter by District</string>
+    <string name="filter_by_art_type">Filter by Art Type</string>
+    <string name="all_districts">All Districts</string>
+    <string name="all_art_types">All Art Types</string>
+    <string name="no_results">No troupes found</string>
+    <string name="results_found">%d troupes found</string>
+
+    <!-- Profile -->
+    <string name="troupe_profile">Troupe Profile</string>
+    <string name="about_troupe">About Troupe</string>
+    <string name="instruments_used">Instruments Used</string>
+    <string name="service_area">Service Area</string>
+    <string name="portfolio_gallery">Portfolio Gallery</string>
+    <string name="lead_contact">Lead Contact</string>
+    <string name="book_now">Book Now</string>
+    <string name="call_troupe">📞 Call Troupe</string>
+    <string name="equipment_list">Equipment List</string>
+    <string name="members_count">%d Members</string>
+
+    <!-- Booking -->
+    <string name="booking_inquiry">Booking Inquiry</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_location">Event Location</string>
+    <string name="message">Message</string>
+    <string name="send_inquiry">Send Inquiry</string>
+
+    <!-- Districts -->
+    <string-array name="karnataka_districts">
+        <item>All Districts</item>
+        <item>Bengaluru Urban</item>
+        <item>Bengaluru Rural</item>
+        <item>Mysuru</item>
+        <item>Tumakuru</item>
+        <item>Mandya</item>
+        <item>Hassan</item>
+        <item>Chikkamagaluru</item>
+        <item>Shivamogga</item>
+        <item>Dakshina Kannada</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Belagavi</item>
+        <item>Vijayapura</item>
+        <item>Bagalkot</item>
+        <item>Koppal</item>
+        <item>Raichur</item>
+        <item>Kalaburagi</item>
+        <item>Yadgir</item>
+        <item>Bidar</item>
+        <item>Ballari</item>
+        <item>Vijayanagara</item>
+        <item>Chitradurga</item>
+        <item>Davanagere</item>
+        <item>Haveri</item>
+        <item>Kodagu</item>
+        <item>Chamarajanagara</item>
+        <item>Ramanagara</item>
+        <item>Kolar</item>
+        <item>Chikkaballapur</item>
+    </string-array>
+
+    <!-- Art Types -->
+    <string-array name="art_types">
+        <item>All Art Types</item>
+        <item>Dollu Kunitha</item>
+        <item>Pooja Kunitha</item>
+        <item>Yakshagana</item>
+        <item>Veeragase</item>
+        <item>Kamsale</item>
+        <item>Kolata</item>
+        <item>Gorava Kunitha</item>
+        <item>Karaga</item>
+        <item>Bayalaata</item>
+        <item>Nagamandala</item>
+        <item>Puja Vesha</item>
+        <item>Lambani Dance</item>
+        <item>Huttari</item>
+    </string-array>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="call_permission_denied">Phone permission is required to make calls</string>
+    <string name="inquiry_sent">Inquiry sent successfully!</string>
+</resources>

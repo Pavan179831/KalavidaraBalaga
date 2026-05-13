@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Maroon background circle -->
+    <path
+        android:fillColor="#8B1A1A"
+        android:pathData="M24,2 C11.85,2 2,11.85 2,24 C2,36.15 11.85,46 24,46 C36.15,46 46,36.15 46,24 C46,11.85 36.15,2 24,2 Z" />
+
+    <!-- Gold drum body -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M10,21 Q24,16 38,21 L38,29 Q24,34 10,29 Z" />
+
+    <!-- Drum top highlight -->
+    <path
+        android:fillColor="#F1C40F"
+        android:pathData="M10,21 Q24,17 38,21 Q24,25 10,21 Z" />
+
+    <!-- White drum ropes -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M17,21 L17,29" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M24,17 L24,33" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M31,21 L31,29" />
+
+    <!-- Music note -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6,14 L7,14 L7,19 C6,19.5 5,19 5.5,18 C5.5,17 7,17 7,18.5 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,14 L10,13 L10,15 L7,16 Z" />
+
+</vector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navigation Drawer header -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:background="@color/primary_dark">
+
+    <!-- Profile photo circle -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivNavProfile"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@android:drawable/ic_menu_myplaces"
+        app:civ_border_color="#D4A017"
+        app:civ_border_width="2dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- User Name -->
+    <TextView
+        android:id="@+id/tvNavName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist / Event Manager"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- User phone/email -->
+    <TextView
+        android:id="@+id/tvNavPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to edit profile →"
+        android:textColor="@color/accent"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>

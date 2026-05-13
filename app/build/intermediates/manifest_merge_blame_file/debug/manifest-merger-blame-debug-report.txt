@@ -1,0 +1,463 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kalavidarabalaga.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:5:5-69
+12-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:5:22-66
+13    <uses-permission
+13-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:6:5-7:38
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:6:22-77
+15        android:maxSdkVersion="32" />
+15-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:7:9-35
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:8:5-76
+16-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:8:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+17-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:22-76
+18
+19    <permission
+19-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.kalavidarabalaga.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.kalavidarabalaga.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:10:5-98:19
+26        android:name="com.kalavidarabalaga.app.KalavidaraApp"
+26-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:11:9-38
+27        android:allowBackup="true"
+27-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:12:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.12.0] C:\Users\sumanth s\.gradle\caches\transforms-4\41b47aa946865430de071909ec5adac2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:13:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:14:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:15:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:16:9-35
+35        android:theme="@style/Theme.KalavidaraBalaga" >
+35-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:17:9-54
+36
+37        <!-- Splash -->
+38        <activity
+38-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:20:9-29:20
+39            android:name="com.kalavidarabalaga.app.ui.splash.SplashActivity"
+39-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:21:13-53
+40            android:exported="true"
+40-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:22:13-36
+41            android:screenOrientation="portrait"
+41-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:24:13-49
+42            android:theme="@style/Theme.KalavidaraBalaga.Splash" >
+42-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:23:13-65
+43            <intent-filter>
+43-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:25:13-28:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:26:17-69
+44-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:26:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:27:17-77
+46-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:27:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <!-- Login -->
+51        <activity
+51-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:32:9-36:58
+52            android:name="com.kalavidarabalaga.app.ui.auth.LoginActivity"
+52-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:33:13-50
+53            android:exported="false"
+53-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:34:13-37
+54            android:screenOrientation="portrait"
+54-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:35:13-49
+55            android:windowSoftInputMode="adjustResize" />
+55-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:36:13-55
+56
+57        <!-- Register -->
+58        <activity
+58-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:39:9-44:67
+59            android:name="com.kalavidarabalaga.app.ui.auth.RegisterActivity"
+59-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:40:13-53
+60            android:exported="false"
+60-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:41:13-37
+61            android:parentActivityName="com.kalavidarabalaga.app.ui.auth.LoginActivity"
+61-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:44:13-64
+62            android:screenOrientation="portrait"
+62-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:42:13-49
+63            android:windowSoftInputMode="adjustResize" />
+63-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:43:13-55
+64
+65        <!-- Forgot Password -->
+66        <activity
+66-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:47:9-52:67
+67            android:name="com.kalavidarabalaga.app.ui.auth.ForgotPasswordActivity"
+67-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:48:13-59
+68            android:exported="false"
+68-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:49:13-37
+69            android:parentActivityName="com.kalavidarabalaga.app.ui.auth.LoginActivity"
+69-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:52:13-64
+70            android:screenOrientation="portrait"
+70-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:50:13-49
+71            android:windowSoftInputMode="adjustResize" />
+71-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:51:13-55
+72
+73        <!-- Main (Home + Search via BottomNav + Drawer) -->
+74        <activity
+74-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:55:9-59:58
+75            android:name="com.kalavidarabalaga.app.ui.MainActivity"
+75-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:56:13-44
+76            android:exported="false"
+76-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:57:13-37
+77            android:screenOrientation="portrait"
+77-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:58:13-49
+78            android:windowSoftInputMode="adjustResize" />
+78-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:59:13-55
+79
+80        <!-- Profile Edit -->
+81        <activity
+81-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:62:9-67:61
+82            android:name="com.kalavidarabalaga.app.ui.profile_edit.ProfileEditActivity"
+82-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:63:13-64
+83            android:exported="false"
+83-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:64:13-37
+84            android:parentActivityName="com.kalavidarabalaga.app.ui.MainActivity"
+84-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:67:13-58
+85            android:screenOrientation="portrait"
+85-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:65:13-49
+86            android:windowSoftInputMode="adjustResize" />
+86-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:66:13-55
+87
+88        <!-- Settings -->
+89        <activity
+89-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:70:9-74:61
+90            android:name="com.kalavidarabalaga.app.ui.settings.SettingsActivity"
+90-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:71:13-57
+91            android:exported="false"
+91-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:72:13-37
+92            android:parentActivityName="com.kalavidarabalaga.app.ui.MainActivity"
+92-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:74:13-58
+93            android:screenOrientation="portrait" />
+93-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:73:13-49
+94
+95        <!-- About -->
+96        <activity
+96-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:77:9-81:61
+97            android:name="com.kalavidarabalaga.app.ui.about.AboutActivity"
+97-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:78:13-51
+98            android:exported="false"
+98-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:79:13-37
+99            android:parentActivityName="com.kalavidarabalaga.app.ui.MainActivity"
+99-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:81:13-58
+100            android:screenOrientation="portrait" />
+100-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:80:13-49
+101
+102        <!-- Troupe Profile -->
+103        <activity
+103-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:84:9-88:61
+104            android:name="com.kalavidarabalaga.app.ui.profile.TroupeProfileActivity"
+104-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:85:13-61
+105            android:exported="false"
+105-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:86:13-37
+106            android:parentActivityName="com.kalavidarabalaga.app.ui.MainActivity"
+106-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:88:13-58
+107            android:screenOrientation="portrait" />
+107-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:87:13-49
+108
+109        <!-- Booking Inquiry (Firestore-backed) -->
+110        <activity
+110-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:91:9-96:78
+111            android:name="com.kalavidarabalaga.app.ui.booking.BookingActivity"
+111-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:92:13-55
+112            android:exported="false"
+112-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:93:13-37
+113            android:parentActivityName="com.kalavidarabalaga.app.ui.profile.TroupeProfileActivity"
+113-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:96:13-75
+114            android:screenOrientation="portrait"
+114-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:94:13-49
+115            android:windowSoftInputMode="adjustResize" />
+115-->C:\Users\sumanth s\OneDrive\Desktop\New folder (2)\KalavidaraBalaga\app\src\main\AndroidManifest.xml:95:13-55
+116
+117        <provider
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+118            android:name="androidx.startup.InitializationProvider"
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+119            android:authorities="com.kalavidarabalaga.app.androidx-startup"
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+120            android:exported="false" >
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+121            <meta-data
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+123                android:value="androidx.startup" />
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sumanth s\.gradle\caches\transforms-4\d5ece54a2f13ec1c3d3f15804db72963\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+124            <meta-data
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\sumanth s\.gradle\caches\transforms-4\4d59a3d9fd0e641e1447581d583aac1b\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+125-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\sumanth s\.gradle\caches\transforms-4\4d59a3d9fd0e641e1447581d583aac1b\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+126                android:value="androidx.startup" />
+126-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\sumanth s\.gradle\caches\transforms-4\4d59a3d9fd0e641e1447581d583aac1b\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+129                android:value="androidx.startup" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+130        </provider>
+131
+132        <service
+132-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
+133            android:name="com.google.firebase.components.ComponentDiscoveryService"
+133-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:9:13-84
+134            android:directBootAware="true"
+134-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+135            android:exported="false" >
+135-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:10:13-37
+136            <meta-data
+136-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:11:13-13:85
+137                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+137-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:12:17-119
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e46b7fd023210bfaf3eeeb7bd70b08a9\transformed\jetified-firebase-auth-ktx-22.3.0\AndroidManifest.xml:13:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+140                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+140-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\3cbe0bcea5eb181037c973f33de770aa\transformed\jetified-firebase-storage-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+143                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+143-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\3cbe0bcea5eb181037c973f33de770aa\transformed\jetified-firebase-storage-ktx-20.3.0\AndroidManifest.xml:13:17-125
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\3cbe0bcea5eb181037c973f33de770aa\transformed\jetified-firebase-storage-ktx-20.3.0\AndroidManifest.xml:14:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\6b79a63b23f8fce5124a327fdbc5e50b\transformed\jetified-firebase-firestore-ktx-24.10.0\AndroidManifest.xml:12:13-14:85
+146                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+146-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\6b79a63b23f8fce5124a327fdbc5e50b\transformed\jetified-firebase-firestore-ktx-24.10.0\AndroidManifest.xml:13:17-129
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-firestore-ktx:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\6b79a63b23f8fce5124a327fdbc5e50b\transformed\jetified-firebase-firestore-ktx-24.10.0\AndroidManifest.xml:14:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+149                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+149-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+152                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+152-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\e62588d3286934e7a1d10c7bc1dad2be\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:17:13-19:85
+155                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+155-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:18:17-122
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:19:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:20:13-22:85
+158                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+158-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:21:17-111
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\sumanth s\.gradle\caches\transforms-4\8f4fb8e546fa00105fb86ce43dba5cab\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:22:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
+161                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+161-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
+164                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+164-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\sumanth s\.gradle\caches\transforms-4\7b682082fa491d83e467c054948c94ce\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\38d5c938e80ac5462d69ae0a9ce251a8\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+167                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+167-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\38d5c938e80ac5462d69ae0a9ce251a8\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\38d5c938e80ac5462d69ae0a9ce251a8\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+170                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+170-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+172        </service>
+173
+174        <activity
+174-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+181-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+185
+186                <data
+186-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+187                    android:host="firebase.auth"
+187-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+188                    android:path="/"
+188-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+189                    android:scheme="genericidp" />
+189-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+199-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+203
+204                <data
+204-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+205                    android:host="firebase.auth"
+205-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+206                    android:path="/"
+206-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+207                    android:scheme="recaptcha" />
+207-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c31ff05910dccd9887a6e6d355cfc0a2\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+208            </intent-filter>
+209        </activity>
+210
+211        <provider
+211-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+212            android:name="com.google.firebase.provider.FirebaseInitProvider"
+212-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+213            android:authorities="com.kalavidarabalaga.app.firebaseinitprovider"
+213-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+215            android:exported="false"
+215-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+216            android:initOrder="100" />
+216-->[com.google.firebase:firebase-common:20.4.2] C:\Users\sumanth s\.gradle\caches\transforms-4\5f1c8fd79bfdfd287cc4e56d88c05d53\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+217
+218        <uses-library
+218-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+219            android:name="androidx.window.extensions"
+219-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+220            android:required="false" />
+220-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+221        <uses-library
+221-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+222            android:name="androidx.window.sidecar"
+222-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0] C:\Users\sumanth s\.gradle\caches\transforms-4\b8cf29a891c2c52fbe90687f0a4d0dc2\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+224
+225        <activity
+225-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sumanth s\.gradle\caches\transforms-4\b73c6b49f30014fe1c2ac1a023dd6d13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+226            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+226-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sumanth s\.gradle\caches\transforms-4\b73c6b49f30014fe1c2ac1a023dd6d13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+227            android:exported="false"
+227-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sumanth s\.gradle\caches\transforms-4\b73c6b49f30014fe1c2ac1a023dd6d13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+228            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+228-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\sumanth s\.gradle\caches\transforms-4\b73c6b49f30014fe1c2ac1a023dd6d13\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+229
+230        <meta-data
+230-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c80bd0ff631e3fe34e5eaca37a667994\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+231            android:name="com.google.android.gms.version"
+231-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c80bd0ff631e3fe34e5eaca37a667994\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+232            android:value="@integer/google_play_services_version" />
+232-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sumanth s\.gradle\caches\transforms-4\c80bd0ff631e3fe34e5eaca37a667994\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+233
+234        <receiver
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+235            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+236            android:directBootAware="false"
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+237            android:enabled="true"
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+238            android:exported="true"
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+239            android:permission="android.permission.DUMP" >
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+240            <intent-filter>
+240-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+241                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+242            </intent-filter>
+243            <intent-filter>
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+244                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+245            </intent-filter>
+246            <intent-filter>
+246-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+247                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+248            </intent-filter>
+249            <intent-filter>
+249-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+250                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sumanth s\.gradle\caches\transforms-4\a26d63d1a8e6444bde97daf0bce5285a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+251            </intent-filter>
+252        </receiver>
+253    </application>
+254
+255</manifest>
